@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    text-align: center;
+    color: rgb(10, 0, 0);
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body
+{
+    background-color: gray;
+    text-align: center;
+}
+.container{
+    background-color: white;
+    display: inline-block;
+    width: 360px;
+    height: 490px;
+    margin-top: 36px;
+    border-radius: 25px;
+    background-color: black;
+}
+input{
+    margin-top: 30px;
+    width: 280px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color:black;
+}
+button{
+    width:64px;
+    height: 64px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color:gray;
+    color: white;
+}
+.buttons{
+    margin-top: 10px;
+}
+.box1{
+    padding: 5px;
+}
+#bytac,#bytde,#bytdot{
+    color:black;
+    background-color: rgba(244, 244, 244, 0.603);
+}
+#bytd,#byts,#byta,#bytm,#byte{
+    color:white;
+    background-color: rgb(199, 30, 87);
+
+}

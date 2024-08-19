@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+    <h1>Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="input">
+            <input type="text" style="color: white; text-align:right;" id="displays">
+        </div>
+        <div class="buttons">
+            <div class="box1">
+                <button id="bytac" onclick="bytacvalue()" value="AC">AC</button>
+                <button id="bytde" onclick="bytdevalue()" value="DE">DE</button>
+                <button id="bytdot" onclick="bytdotvalue()" value=".">.</button>
+                <button id="bytd" onclick="bytdvalue()" value="/">/</button>
+            </div>
+
+            <div class="box1">
+                <button id="byt7" onclick="byt7value()" value="7">7</button>
+                <button id="byt8" onclick="byt8value()" value="8">8</button>
+                <button id="byt9" onclick="byt9value()" value="9">9</button>
+                <button id="bytm"  onclick="bytmvalue()" value="*">*</button>
+            </div>
+
+            <div class="box1">
+                <button id="byt4" onclick="byt4value()" value="4">4</button>
+                <button id="byt5" onclick="byt5value()" value="5">5</button>
+                <button id="byt6" onclick="byt6value()" value="6">6</button>
+                <button id="byts" onclick="bytsvalue()" value="-">-</button>
+            </div>
+
+            <div class="box1">
+                <button id="byt1" onclick="byt1value()" value="1">1</button>
+                <button id="byt2" onclick="byt2value()" value="2">2</button>
+                <button id="byt3" onclick="byt3value()" value="3">3</button>
+                <button id="byta" onclick="bytavalue()" value="+">+</button>
+            </div>
+
+            <div class="box1">
+                <button id="byt00" onclick="byt00value()" value="00">00</button>
+                <button id="byt0" onclick="byt0value()" value="0">0</button>
+                <button id="byte" style="width: 128px;" onclick="bytevalue()" value="=">=</button>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
